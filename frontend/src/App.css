@@ -1,0 +1,60 @@
+
+body {
+    background: transparent;
+    /* background-image: linear-gradient(90deg, #66a7cc 0%, #5374b4 35%, #519573 100%); */
+    background-image: "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTie7-8Nh6U-4K1I-Y9X-9JsOkr_bZy_GuDmb7v9rARezo4KUNoF6CzZ9jGte41Vn1pU7s&usqp=CAU')" !important;
+    background-position: 'center' !important;
+  background-size: 'cover' !important;
+  background-repeat: 'no-repeat' !important;
+  color: #FFF !important;
+  
+}
+
+.box {
+    padding: 2%;
+    width: 70%;
+    background: #FFF;
+    margin: 40px auto;
+}
+
+/*==================================================
+ * Effect 1
+ * ===============================================*/
+.effect1 {
+    /* -webkit-box-shadow: 0 10px 6px -6px #777; */
+    /* -moz-box-shadow: 0 10px 6px -6px #777; */
+    /* box-shadow: 0 10px 6px -6px #777; */
+    width:100%;
+    /* height:100%; */
+    background: transparent;
+    color: white;
+}
+
+footer{
+    bottom: 0;
+    margin-bottom: 2%;
+    width: 100%;
+    height: 2.5rem;            /* Footer height */
+}
+
+.stockCard{
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+    border: #e8e8e8;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.ant-steps-vertical.ant-steps-small .ant-steps-item-container .ant-steps-item-title {
+    line-height: 24px;
+    color: white !important;
+}
+
+.ant-steps-item-process > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-description {
+    color: white !important;
+}
+
+.ant-steps-item-wait > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-description {
+    color: white !important;
+}
